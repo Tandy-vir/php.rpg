@@ -1,0 +1,35 @@
+Créer un jeux d'exploration de donjon (de naheulbeuk), avec plusieurs étages
+un systéme de combat basé sur l'aléatoire
+
+Races: Homme, Nain, Elfe, 
+Classes: Guerrier, Voleur, Mage, Ranger
+
+Ajouter des équipement trouvable dans les coffres (// bonus armure // bonus vita // bonus attaque)
+
+Faire un calcul de score par rapport a l'or trouvé au sol (or aléatoire 3 a 15 PO), nombre de monstres tués, cases parcourues, étage atteint
+
+Plusieurs Mobs a combattre // stats augmenté par étage
+
+Des coffres sont placés aléatoirement dans les étages, avec potions, équipements armes
+
+le combat se déroulera par tour
+Tour x, attaque, esquive
+
+déplacement hors-combat, avancer, droite, gauche
+mode repos/dormir (regen de HP, gros regen de hp avec % faible d'attaque surprise )
+
++ un moyen d'exporter en .txt, l'histoire du joueur 
+
+Variable utilisée
+
+perso ($MyHp, $MyDef, $MyAtt)
+monstre ($MobHp, $MobDef, $MobAtt)
+
+$Gold
+
+calcul des dégats :
+$DamageTaken = $MobAtt - $MyDef
+$MyHp = $MyHp - $DamageTaken
+
+// $DamageDealt = $MyAtt - $MobDef
+$MobHp = $MobHp - $$DamageDealt //

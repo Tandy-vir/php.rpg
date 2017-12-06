@@ -1,0 +1,20 @@
+action du script dans l'ordre
+
+//Choix du pseudo
+readline("")
+//Choix de la race
+readline("Homme, Elfe, Nain")
+//Choix de la classe
+readline(Guerrier, Mage, Voleur, Ranger)
+
+//Prêt a entrer dans le donjon ?
+readline (Let's go !)
+
+//Qu'allez-vous faire ?
+readline(avancer, a droite, a gauche)
+
+//Un monstre vous attaque
+readline(Attaque, Esquive)
+
+//fin de combat
+readline (Repos, Dormir)
